@@ -1,0 +1,15 @@
+{
+  "name": "react-in-action",
+  "version": "1.0.0",
+  "author": "dao",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./context",
+    "./toy/toy01",
+    "./toy/toy02",
+    "./toy/toy03",
+    "./toy/toy04",
+    "./toy/toy05"
+  ]
+}

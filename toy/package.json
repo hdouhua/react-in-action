@@ -1,0 +1,9 @@
+{
+    "workspaces":[
+        "toy01",
+        "toy02",
+        "toy03",
+        "toy04",
+        "toy05"
+    ]
+}
