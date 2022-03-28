@@ -1,5 +1,7 @@
 # react toy implementation
 
+this project is about building your own `React` step by step.
+
 ## install npm packages
 
 - to support webpack
@@ -32,7 +34,7 @@
 
 - go to the folder dist under the project, then open the HTML file
 
-## table of content
+## step-by-step
 
 - toy01
    - render simple predefined elements by document.createElement & document.appendChild
@@ -61,7 +63,9 @@
    - partial update with virtual DOM
       ![vdom-refresh](./res/vdom-refresh.gif)
 
-## screencast to gif
+## appendix
+
+### screencast to gif
 
 - brew install ffmpeg & gifsicle
 - run command
@@ -74,3 +78,7 @@ ffmpeg -i in.mov -t 6 -r 10 -f gif - | gifsicle --optimize=3 > out.gif
 # with additional options screen size, color format and delay
 ffmpeg -i in.mov -s 600x400 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > out.gif
 ```
+
+### reference
+
+- [build your own react](https://pomb.us/build-your-own-react/)
